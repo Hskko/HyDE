@@ -249,7 +249,8 @@ EOF
         "$HOME/.local/lib/hyde/themeswitch.sh" -q || true
         echo "[install] reload :: Hyprland"
     fi
-
+    sudo chmod +x "$HOME/.config/splash_small.sh"
+    sudo chmod +x "$HOME/.config/splash.sh"
 fi
 
 #---------------------#
