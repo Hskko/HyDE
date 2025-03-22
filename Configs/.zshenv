@@ -203,6 +203,9 @@ if [ -t 1 ]; then
         pl='$PM search installed' \
         pa='$PM search installed' \
         vc='code' \
+        nv='nvim' \
+        cs='coding-style . .' \
+        erm='echo $?' \
         fastfetch='fastfetch --logo-type kitty' \
         ..='cd ..' \
         ...='cd ../..' \
